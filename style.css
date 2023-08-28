@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;padding: 0;box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body { 
+    min-height: 100 vh;
+    background-image: url(./Image/output-4\ 2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px 5px;
+    display: flex;
+    flex-direction: column;
+
+}
+.nav-bar {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 30px;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    border: none;
+    border-radius: 30px;
+    box-shadow: 20px rgba(255,255,255,0.1);
+}
+.nav-bar .nav-point {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 40px;
+    transition: all 0.5s;
+}
+.nav-bar .nav-point .nav {
+    text-decoration: none !important;
+    color: azure;
+    font-size: 15px;
+    font-weight: 500;
+    transition: all 0.5s;
+}
+.nav-bar .nav-point .nav:hover {
+    color:blueviolet;
+}
+.sign {
+    background: linear-gradient(rgba(200,209,254,0.9), rgba(146,161,237,0.2));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 38px;
+    width: 110px;
+    border-radius: 10px;
+}
+
+
+.container {
+    height: 1500px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    margin-bottom: none;
+}
+
+.container .display-container {
+    height: 950px;
+    width: 100%;
+    background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+    border-radius: 20px;
+}
+.container .display-container .text {
+    height: 470px;
+    width: 741px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+.text h1 {
+    font-weight: 600;
+    font-size: 80px;
+    color: rgba(8, 8, 8, 0.8);
+    margin-bottom: 20px;
+}
+.text p {
+    font-weight: 400;
+    font-size: 15px;
+    width: 565px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.generated {
+    height: 46px;
+    width: 201px;
+    background: linear-gradient(rgba(246, 158, 163, 1), rgba(233, 112, 196, 1));
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    transition: all .5s;
+}
+.generated:hover {
+    color: purple;
+    border: 2px solid purple;
+}
+.text .generated img {
+    height: 18px;
+    width: 18px;
+}
+
+.display-container .contain {
+    height: 717px;
+    width: 424px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(255,255,255,0.4);
+    backdrop-filter: blur(20px);
+    position: relative;
+    top: -470px;
+    right: -1300px;
+    border-radius: 20px;
+}
+
+.contain h2 {
+    font-size: 24px;
+    font-weight: 600;
+    position: relative;
+    left: 70px;
+    top: 40px;
+    
+}
+.contain .feature {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.feature .feature-all {
+    height: 94px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, .3);
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all .5s;
+}
+.feature-all:hover {
+    border: 2px solid purple ;
+}
+.feature .feature-all img {
+    height: 70px;
+    width: 70px;
+}
+.feature-text{
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.active {
+    color: blueviolet;
+}
+.feature-text h2 {
+    font-size: 17px;
+    font-weight: 600;
+}
+.feature-text p {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.contain button {
+    position: relative;
+    bottom: 30px;
+    right: -90px;
+    width: 216px;
+    height: 46px;
+    border-radius: 10px;
+    border: none;
+    background: rgba(255,255,255,0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.contain button:hover {
+    border: 2px solid purple;
+}
+
+
+
+.container .display-card {
+    height: 670px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 50px;
+    padding: 50px 150px;
+    border-radius: 0 25px 25px 0;
+    background: rgba(255,255,255,0.4);
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+}
+.display-card .card {
+    height: 540px;
+    width: 440px;
+}
+.card .image {
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 303px;
+    width: 440px;
+    border-radius: 20px;
+}
+.c1 .image  {
+    background-image: url(./Image/aksonvady_Data_technology_futuristic_illustration\ 2511.png);
+}
+.c2 .image  {
+    background-image: url(./Image/aksonvady_Data_technology_futuristic_illustration\ 2512.png);
+}
+.c3 .image  {
+    background-image: url(./Image/aksonvady_Data_technology_futuristic_illustration\ 25.png);
+}
+.card .content {
+    position: relative;
+    width: 440px;
+    height: 276px;
+    top: -40px;
+    background: rgba(255, 255, 255, .2);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, .5);
+    padding: 25px;
+}
+.content .log {
+    position: absolute;
+    top: -40px;
+    right: 50px;
+}
+
+.content .test h2 {
+    font-size: 24px;
+    font-weight: 600;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, .5);
+}
+.content .test h6 {
+    font-size: 17px;
+    font-weight: 600;
+    padding: 10px 0;
+}
+.content .test p {
+    font-size: 15px;
+    font-weight: 400;
+    padding: 10px 0;
+}
+.content button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    width: 216px;
+    height: 49px;
+    font-size: 15px;
+    font-weight: 500;
+    background: linear-gradient(to top, rgba(255, 255, 255, 1),rgba(255, 255, 255, 0));
+    border: none;
+    border-radius: 10px;
+    right: -80px;
+    top: 10px;
+}
+.content button:hover {
+    cursor: pointer;
+    border: 2px solid purple;
+}
